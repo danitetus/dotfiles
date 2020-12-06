@@ -1,7 +1,7 @@
-/vscode/User/globalStorage
-/vscode/User/snippets
-/vscode/User/sync
-/vscode/User/workspaceStorage
+/editors/vscode/User/globalStorage
+/editors/vscode/User/snippets
+/editors/vscode/User/sync
+/editors/vscode/User/workspaceStorage
 
 # Private
 /**/**private-*

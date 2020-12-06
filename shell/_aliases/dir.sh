@@ -1,5 +1,5 @@
-alias .. = "cd .."
-alias ...= "cd ../.."
+alias ..="cd .."
+alias ...="cd ../.."
 alias ll="exa -lh"
 alias la="exa -lha"
 

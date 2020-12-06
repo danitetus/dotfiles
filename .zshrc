@@ -1,14 +1,14 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-export DENO_INSTALL="/home/dcanada/.deno"
+export DENO_INSTALL="$HOME/.deno"
 export PATH="$DENO_INSTALL/bin:$HOME/bin:$HOME/.dotfiles/bin:$PATH"
 
 export KUBECONFIG=/home/dcanada/.kube/config:/home/dcanada/.kube/soleydani
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/dcanada/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
-export DOTFILES_PATH="$HOME/.dotfiles/"
+export DOTFILES_PATH="$HOME/.dotfiles"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,

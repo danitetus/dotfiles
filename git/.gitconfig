@@ -7,6 +7,6 @@
 	lodag = log --all --graph --decorate --oneline
 	b = branch
 [pull]
-	rebase = false
+	rebase = true
 [commit]
 	gpgsign = true
