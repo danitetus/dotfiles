@@ -1,0 +1,12 @@
+[user]
+	email = danitetus@gmail.com
+	name = Daniel Cañada Garcia
+	signingkey = A2C109A1C8B999C9
+[alias]
+	ch = checkout
+	lodag = log --all --graph --decorate --oneline
+	b = branch
+[pull]
+	rebase = false
+[commit]
+	gpgsign = true

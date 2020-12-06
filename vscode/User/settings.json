@@ -1,0 +1,37 @@
+{
+    "editor.fontLigatures": true,
+    "editor.fontSize": 13,
+    "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.renderWhitespace": "all",
+    "editor.tabCompletion": "on",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": false,
+        "source.fixAll": false
+    },
+    "window.zoomLevel": 0,
+    "terminal.external.linuxExec": "x-terminal-emulator",
+    "terminal.integrated.shell.linux": "zsh",
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "vue"
+    ],
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Palenight (Mild Contrast)",
+    "vetur.format.defaultFormatter.sass": "sass-formatter",
+    "vetur.format.options.useTabs": false,
+    "editor.tabSize": 2,
+    "todo-tree.tree.showScanModeButton": false,
+    "explorer.confirmDelete": false,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "git.autofetch": true,
+    "eslint.format.enable": true,
+    "eslint.alwaysShowStatus": true,
+    "beautify.config": "",
+    "C_Cpp.updateChannel": "Insiders",
+    "beautify.ignore": "",
+    "window.customMenuBarAltFocus": false,
+    "editor.renderControlCharacters": true,
+}
