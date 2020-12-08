@@ -10,3 +10,7 @@
 	rebase = true
 [commit]
 	gpgsign = true
+[core]
+	excludesfile = /home/dcanada/.gitignore
+[color]
+	ui = true
