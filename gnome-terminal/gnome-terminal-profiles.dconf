@@ -1,0 +1,10 @@
+[:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+cell-height-scale=1.3500000000000003
+cell-width-scale=1.0
+custom-command='zsh'
+font='JetBrains Mono 10'
+login-shell=false
+scrollback-unlimited=true
+use-custom-command=true
+use-system-font=false
+use-theme-colors=true
