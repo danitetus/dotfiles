@@ -1,13 +1,15 @@
 {
     "editor.fontLigatures": true,
-    "editor.fontSize": 13,
-    "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontSize": 14,
+    "editor.fontFamily": "'Jetbrains Mono', 'Dank Mono', 'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "editor.renderWhitespace": "all",
     "editor.tabCompletion": "on",
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": false,
         "source.fixAll": false
     },
+    "editor.lineHeight": 25,
+    "editor.cursorStyle": "underline",
     "window.zoomLevel": 0,
     "terminal.external.linuxExec": "x-terminal-emulator",
     "terminal.integrated.shell.linux": "zsh",
@@ -34,4 +36,7 @@
     "beautify.ignore": "",
     "window.customMenuBarAltFocus": false,
     "editor.renderControlCharacters": true,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.fontWeight": "normal",
 }
