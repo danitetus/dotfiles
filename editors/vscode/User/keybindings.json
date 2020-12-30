@@ -3,5 +3,9 @@
   {
     "key": "alt+r",
     "command": "npm.runScript"
+  },
+  {
+    "key": "shift+alt+enter",
+    "command": "extension.resolveImport"
   }
 ]
