@@ -1,8 +1,8 @@
 {
     "editor.fontLigatures": true,
-    "editor.fontFamily": "JetBrains",
+    "editor.fontFamily": "'JetBrains'",
     "editor.fontSize": 13,
-    "editor.letterSpacing": 0.6,
+    "editor.letterSpacing": 1,
     "editor.renderWhitespace": "all",
     "editor.smoothScrolling": true,
     "editor.tabCompletion": "on",
@@ -10,7 +10,7 @@
         "source.fixAll.eslint": false,
         "source.fixAll": false
     },
-    "editor.lineHeight": 22,
+    "editor.lineHeight":30,
     "window.zoomLevel": 0,
     "terminal.external.linuxExec": "x-terminal-emulator",
     "terminal.integrated.shell.linux": "zsh",
@@ -39,7 +39,7 @@
     "editor.renderControlCharacters": true,
     "editor.cursorBlinking": "smooth",
     "editor.cursorSmoothCaretAnimation": true,
-    "editor.fontWeight": "normal",
+    "editor.fontWeight": "300",
     "workbench.editorAssociations": [
         {
             "viewType": "jupyter.notebook.ipynb",
@@ -49,4 +49,6 @@
     "python.languageServer": "Pylance",
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "prettier.semi": false,
+    "prettier.singleQuote": true,
 }

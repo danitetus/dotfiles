@@ -7,5 +7,9 @@
   {
     "key": "shift+alt+enter",
     "command": "extension.resolveImport"
+  },
+  {
+    "key": "ctrl+alt+f",
+    "command": "explorer.newFolder"
   }
 ]
