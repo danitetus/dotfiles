@@ -3,9 +3,9 @@
 export DENO_INSTALL="$HOME/.deno"
 export PATH="$DENO_INSTALL/bin:$HOME/bin:$HOME/.dotfiles/bin:$PATH"
 
-export TERM=xterm
+#export TERM=vt102
 
-export KUBECONFIG=/home/dcanada/.kube/config:/home/dcanada/.kube/soleydani
+export KUBECONFIG=$HOME/.kube/config
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"

@@ -19,5 +19,9 @@ cp /tmp/lambda/cdimascio-lambda.zsh-theme $HOME/.oh-my-zsh/themes/
 # Gnome terminal
 dconf load /org/gnome/terminal/legacy/profiles:/ < $HOME/.dotfiles/gnome-terminal/gnome-terminal-profiles.dconf
 
+# Alacritty
+mkdir -p $HOME/.config/alacritty
+ln -s $HOME/.dotfiles/alacritty/alacritty.yml $HOME/.config/alacritty/
+
 # Install fonts
 cp $HOME/.dotfiles/fonts/*.* $HOME/.fonts/

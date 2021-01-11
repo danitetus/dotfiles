@@ -1,0 +1,55 @@
+shell:
+  program: /bin/zsh
+
+window:
+  padding:
+    x: 20
+    y: 20
+
+scrolling:
+  history: 100000
+  multiplier: 3
+
+# Background opacity
+background_opacity: 0.9
+
+font:
+  normal:
+    family: JetBrains Mono
+  bold:
+    family: JetBrains Mono
+  italic:
+    family: JetBrains Mono
+  size: 10
+colors:
+  # Default colors
+  primary:
+    background: '#292C3E'
+    foreground: '#EBEBEB'
+
+  # Cursor colors
+  cursor:
+   text: '#FF261E'
+   cursor: '#FF261E'
+
+  # Normal colors
+  normal:
+    black:   '#0d0d0d'
+    red:     '#FF301B'
+    green:   '#A0E521'
+    yellow:  '#FFC620'
+    blue:    '#1BA6FA'
+    magenta: '#8763B8'
+    cyan:    '#21DEEF'
+    white:   '#EBEBEB'
+
+  # Bright colors
+  bright:
+    black:   '#6D7070'
+    red:     '#FF4352'
+    green:   '#B8E466'
+    yellow:  '#FFD750'
+    blue:    '#1BA6FA'
+    magenta: '#A578EA'
+    cyan:    '#73FBF1'
+    white:   '#FEFEF8'
