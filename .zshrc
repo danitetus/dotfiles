@@ -3,7 +3,7 @@
 export DENO_INSTALL="$HOME/.deno"
 export PATH="$DENO_INSTALL/bin:$HOME/bin:$HOME/.dotfiles/bin:$PATH"
 
-#export TERM=vt102
+#export TERM=xterm
 
 export KUBECONFIG=$HOME/.kube/config
 
