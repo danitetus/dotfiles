@@ -1,8 +1,8 @@
 {
     "editor.fontLigatures": true,
-    "editor.fontFamily": "'JetBrains'",
-    "editor.fontSize": 13,
-    "editor.letterSpacing": 1,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 12,
+    "editor.letterSpacing": 0.6,
     "editor.renderWhitespace": "all",
     "editor.smoothScrolling": true,
     "editor.tabCompletion": "on",
@@ -20,7 +20,7 @@
         "vue"
     ],
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Palenight (Mild Contrast)",
+    "workbench.colorTheme": "Material Theme",
     "vetur.format.defaultFormatter.sass": "sass-formatter",
     "vetur.format.options.useTabs": false,
     "editor.tabSize": 2,
@@ -39,7 +39,7 @@
     "editor.renderControlCharacters": true,
     "editor.cursorBlinking": "smooth",
     "editor.cursorSmoothCaretAnimation": true,
-    "editor.fontWeight": "300",
+    "editor.fontWeight": 400,
     "workbench.editorAssociations": [
         {
             "viewType": "jupyter.notebook.ipynb",

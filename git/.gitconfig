@@ -14,3 +14,5 @@
 	excludesfile = /home/dcanada/.gitignore
 [color]
 	ui = true
+[init]
+	defaultBranch = main
