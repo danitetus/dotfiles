@@ -7,7 +7,7 @@
     "editor.smoothScrolling": true,
     "editor.tabCompletion": "on",
     "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": false,
+        "source.fixAll.eslint": true,
         "source.fixAll": false
     },
     "editor.lineHeight":30,
@@ -20,7 +20,7 @@
         "vue"
     ],
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Material Theme",
+    "workbench.colorTheme": "Cobalt2",
     "vetur.format.defaultFormatter.sass": "sass-formatter",
     "vetur.format.options.useTabs": false,
     "editor.tabSize": 2,
@@ -37,8 +37,8 @@
     "beautify.ignore": "",
     "window.customMenuBarAltFocus": false,
     "editor.renderControlCharacters": true,
-    "editor.cursorBlinking": "smooth",
-    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorBlinking": "blink",
+    "editor.cursorSmoothCaretAnimation": false,
     "editor.fontWeight": 400,
     "workbench.editorAssociations": [
         {
@@ -51,4 +51,15 @@
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "prettier.semi": false,
     "prettier.singleQuote": true,
+    "prettier.jsxSingleQuote": true,
+    "prettier.packageManager": "yarn",
+    "prettier.trailingComma": "none",
+    "editor.rulers": [],
+    // Enable per-language
+    "[javascript]": {
+        "editor.formatOnSave": false
+    },
+    "[typescript]": {
+        "editor.formatOnSave": false
+    }
 }
