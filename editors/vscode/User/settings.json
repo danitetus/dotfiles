@@ -1,7 +1,7 @@
 {
     "editor.fontLigatures": true,
     "editor.fontFamily": "JetBrains Mono",
-    "editor.fontSize": 12,
+    "editor.fontSize": 13,
     "editor.letterSpacing": 0.6,
     "editor.renderWhitespace": "all",
     "editor.smoothScrolling": true,
@@ -10,12 +10,14 @@
         "source.fixAll.eslint": true,
         "source.fixAll": false
     },
-    "editor.lineHeight":30,
-    "window.zoomLevel": 0,
+    "editor.lineHeight": 30,
+    "typescript.suggest.autoImports": true,
     "terminal.external.linuxExec": "x-terminal-emulator",
     "terminal.integrated.shell.linux": "zsh",
     "eslint.validate": [
         "javascript",
+        "javascriptvue",
+        "typescript",
         "javascriptreact",
         "vue"
     ],
@@ -32,9 +34,7 @@
     "git.autofetch": true,
     "eslint.format.enable": true,
     "eslint.alwaysShowStatus": true,
-    "beautify.config": "",
     "C_Cpp.updateChannel": "Insiders",
-    "beautify.ignore": "",
     "window.customMenuBarAltFocus": false,
     "editor.renderControlCharacters": true,
     "editor.cursorBlinking": "blink",
@@ -48,18 +48,23 @@
     ],
     "python.languageServer": "Pylance",
     "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "prettier.semi": false,
-    "prettier.singleQuote": true,
-    "prettier.jsxSingleQuote": true,
-    "prettier.packageManager": "yarn",
-    "prettier.trailingComma": "none",
     "editor.rulers": [],
     // Enable per-language
     "[javascript]": {
-        "editor.formatOnSave": false
+        "editor.formatOnSave": true
     },
     "[typescript]": {
-        "editor.formatOnSave": false
-    }
+        "editor.formatOnSave": true
+    },
+    "workbench.list.openMode": "doubleClick",
+    "workbench.list.smoothScrolling": true,
+    "workbench.startupEditor": "none",
+    "workbench.preferredDarkColorTheme": "Cobalt2",
+    "javascript.preferences.quoteStyle": "single",
+    "autoimport.useSemiColon": false,
+    "autoimport.absolute": true,
+    "autoimport.semicolon": false,
+    "autoimport.filesToScan": "./src/backend/**/*.{ts,tsx}",
+    "autoimport.showNotifications": true,
+    "notebook.displayOrder": []
 }

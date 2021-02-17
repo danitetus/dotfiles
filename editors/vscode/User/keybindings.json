@@ -11,5 +11,9 @@
   {
     "key": "ctrl+alt+f",
     "command": "explorer.newFolder"
+  },
+  {
+    "key": "ctrl+alt+n",
+    "command": "explorer.newFile"
   }
 ]
