@@ -1,7 +1,7 @@
 [user]
-	email = danitetus@gmail.com
-	name = Daniel Cañada Garcia
-	signingkey = A2C109A1C8B999C9
+	email = d4nicoder@gmail.com
+	name = @d4nicoder
+	signingkey = 92FDC3F0A53FEF28
 [alias]
 	ch = checkout
 	lodag = log --all --graph --decorate --oneline
@@ -11,7 +11,7 @@
 [commit]
 	gpgsign = true
 [core]
-	excludesfile = /home/dcanada/.gitignore
+	excludesfile = $HOME/.gitignore
 [color]
 	ui = true
 [init]
